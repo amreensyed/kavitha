@@ -1,0 +1,133 @@
+<html>
+<head>
+
+<style>
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+body{
+background-image:url("foodie.jpg");
+
+}
+input[type=text]{
+width:20%;
+padding:12px 20px;
+margin:8px 0;
+box-sizing:border-box;
+border:none;
+border-radius:4px;
+background-color:#f1f1f1;
+}
+
+body{
+backround-image:url("food.jpg");
+}
+p.serif {
+    font-family: "Times New Roman", Times, serif;
+}
+p
+{font-size:40px
+}
+p{
+color:yellow;
+text-align:center;
+}
+h1{
+color:black;
+text-align:center;
+}
+h1{
+font-size:80px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 4;
+    padding: 4;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #4CAF50;
+}
+</style>
+</head>
+<body>
+
+
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li style="float:right"><a class="active" href="#about">About</a></li>
+</ul>
+
+
+
+</style>
+</head>
+<body >
+
+
+
+
+<h1>ONLINE SHOPPING</h1>
+<p class="serif">taste now.</p>
+<p class="font-size.</p>
+<h3>foodie are welcomed</h3>
+
+<div>
+  <form action="/action_page.php">
+    <label for="fname">veg items:</label>
+
+    <input type="text" id="fname" name="veg iems" placeholder="items">
+<br><br>
+
+    <label for="lname">non-veg items:</label>
+
+    <input type="text" id="lname" name="non-veg items" placeholder="items"><br><br>
+
+    <label for="country">Country:</label>
+
+    <select id="country" name="country"><br><br>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select><br><br>
+  
+    <input type="submit" value="Submit">
+<input type="button" class="button" value="link">
+
+  </form>
+</div>
+
+
+</body>
+</html>
